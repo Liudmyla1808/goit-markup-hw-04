@@ -146,7 +146,7 @@ ul{
 
 /* Hero */
 .section-hero{
-
+    display: flex;
     font-family: 'Roboto';
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)), url(../images/Img\ hero.jpg) ;
     background-repeat: no-repeat;
@@ -157,6 +157,7 @@ ul{
     padding-bottom: 200px;
     width: 1600px;
     height: 600px;
+    margin: 0 auto;
     
 }
 .section-main{
@@ -427,12 +428,13 @@ a{
 .item-footer:not(:last-child){
     margin-bottom: 9px;
 }
-/* Home wor4 */
+/* Home work4 */
 
 .icon-svg:hover, 
 .icon-svg:focus { 
     fill: var(--accent-color); 
 }
+
 .icon-svg{
     fill: currentColor;
     margin-right: 10px;
@@ -449,7 +451,27 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #EEEEEE;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.1);
+
+}
+.footer-link:hover,
+.footer-link:focus{
+    background-color: var(--accent-color);
+}
+.footer-icon:hover,
+.footer-icon:focus{
+    fill: var(--dcg-color);
 }
 .fotter-add{
 font-family: 'Roboto';
@@ -460,10 +482,9 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--tres-text);
+margin-bottom: 20px;
 }
 .pried{
-    display: flex;
-    align-items: baseline;
     margin-left: 70px;
 }
 .spusok-client{
@@ -478,7 +499,7 @@ color: var(--tres-text);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-l   etter-spacing: 0.03em;
+   letter-spacing: 0.03em;
 }
 .post-client{
     padding-top: 94px;
@@ -486,32 +507,32 @@ l   etter-spacing: 0.03em;
 }
 .tin{
     display: block;
-    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
- .client-card{
+.tin:hover,
+.tin:focus{
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ .client-logo{
     display: flex;
-    width: 170px;
-    height: 92px;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
     border: 1px solid #AFB1B8;
-   
-    fill:var(--secondary-backgraund);
+    color: #AFB1B8;
+    fill:#AFB1B8;
  }
  .client-card:not(:last-child) {
     margin-right: 30px;
  }
- .client-logo{
+ .client-logo:hover,
+ .client-logo:focus{
+    border-color: var(--accent-color);
     fill: var(--accent-color);
- }
- .client-card:hover{
-    fill:var(--dcg-color);
-    border: 1px solid var(--dcg-color);
- }
- .client-logo:hover{
-    fill: var(--dcg-color);
  }
  .conteiner-footer{
     display: flex;
+    display: flex;
+    align-items: baseline;
  }
