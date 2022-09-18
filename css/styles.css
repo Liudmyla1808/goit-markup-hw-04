@@ -536,3 +536,29 @@ margin-bottom: 20px;
     display: flex;
     align-items: baseline;
  }
+
+ .comanda-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #EEEEEE;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.1);
+
+}
+.comanda-item:hover,
+.comanda-item:focus{
+    background-color: var(--accent-color);
+}
+.comanda-item:hover,
+.comanda-item:focus{
+    fill: var(--dcg-color);
+}
+.comanda-soc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+    }
