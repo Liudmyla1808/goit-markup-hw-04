@@ -146,13 +146,17 @@ ul{
 
 /* Hero */
 .section-hero{
+
     font-family: 'Roboto';
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)), url(../images/Img\ hero.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100%;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    width: 1600px;
+    height: 600px;
     
 }
 .section-main{
@@ -454,6 +458,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: var(--tres-text);
 }
 .pried{
     display: flex;
@@ -478,3 +483,34 @@ l   etter-spacing: 0.03em;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.tin{
+    display: block;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+ .client-card{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+   
+    fill:var(--secondary-backgraund);
+ }
+ .client-card:not(:last-child) {
+    margin-right: 30px;
+ }
+ .client-logo{
+    fill: var(--accent-color);
+ }
+ .client-card:hover{
+    fill:var(--dcg-color);
+    border: 1px solid var(--dcg-color);
+ }
+ .client-logo:hover{
+    fill: var(--dcg-color);
+ }
+ .conteiner-footer{
+    display: flex;
+ }
