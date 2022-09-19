@@ -128,7 +128,8 @@ ul{
 
 
 .auth-nav-cont{
-   display: block;
+   display: flex;
+   align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--primery-text-color);
@@ -465,7 +466,7 @@ a{
     border: 1px solid #EEEEEE;
     border-radius: 50%;
     border-color: rgba(255, 255, 255, 0.1);
-
+    
 }
 
 .footer-link:hover,
@@ -515,6 +516,9 @@ margin-bottom: 20px;
 .tin:focus{
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+/* .logo-icon{
+    fill: currentColor;
+} */
 
  .client-logo{
     display: flex;
@@ -541,6 +545,7 @@ margin-bottom: 20px;
  }
 
  .comanda-item{
+    
     display: flex;
     justify-content: center;
     align-items: center;
