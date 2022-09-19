@@ -444,8 +444,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F5F4FA;
     width: 270px;
     height: 120px;
+    margin-bottom: 30px;
 }
 .comanda-soc{
     display: flex;
@@ -465,6 +467,7 @@ a{
     border-color: rgba(255, 255, 255, 0.1);
 
 }
+
 .footer-link:hover,
 .footer-link:focus{
     background-color: var(--accent-color);
@@ -561,4 +564,11 @@ margin-bottom: 20px;
         align-items: center;
         justify-content: center;
         margin-top: 16px;
+    }
+.comand-icon{
+         fill: currentColor;
+    }
+.comand-icon:hover,
+.comand-icon:focus{
+          fill: #fff;
     }
