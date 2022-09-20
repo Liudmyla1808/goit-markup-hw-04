@@ -463,15 +463,18 @@ a{
     align-items: center;
     width: 44px;
     height: 44px;
-    border: 1px solid #EEEEEE;
+    background-color:  rgba(255, 255, 255, 0.1);
+    /* border: 1px solid #EEEEEE; */
     border-radius: 50%;
-    border-color: rgba(255, 255, 255, 0.1);
-    
+        
 }
 
 .footer-link:hover,
 .footer-link:focus{
     background-color: var(--accent-color);
+}
+.footer-icon{
+    fill: var(--tres-text);
 }
 .footer-icon:hover,
 .footer-icon:focus{
@@ -524,8 +527,10 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    width: 170px;
+    height: 92px;
     border: 1px solid #AFB1B8;
     color: #AFB1B8;
     fill:#AFB1B8;
@@ -559,10 +564,11 @@ margin-bottom: 20px;
 .comanda-item:hover,
 .comanda-item:focus{
     background-color: var(--accent-color);
+   
 }
 .comanda-item:hover,
 .comanda-item:focus{
-    fill: var(--dcg-color);
+    fill: var(--dcg-color); 
 }
 .comanda-soc{
         display: flex;
@@ -571,7 +577,7 @@ margin-bottom: 20px;
         margin-top: 16px;
     }
 .comand-icon{
-         fill: currentColor;
+         fill: #AFB1B8;
     }
 .comand-icon:hover,
 .comand-icon:focus{
