@@ -566,8 +566,8 @@ margin-bottom: 20px;
     background-color: var(--accent-color);
    
 }
-.comanda-item:hover,
-.comanda-item:focus{
+.comanda-item:hover .comand-icon,
+.comanda-item:focus .comand-icon{
     fill: var(--dcg-color); 
 }
 .comanda-soc{
